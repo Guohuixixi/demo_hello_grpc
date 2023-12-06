@@ -1,5 +1,5 @@
-github.com/Guohuixixi/demo_hello_grpc/pb v0.0.0-20231206103747-986f3fc179d7 h1:AakjXxY2uVEh6K8fMnNMgyjByBtb6WWbsRJBFjbx6z4=
-github.com/Guohuixixi/demo_hello_grpc/pb v0.0.0-20231206103747-986f3fc179d7/go.mod h1:GK4USXu+MrO8+rVXTxaiTpl4GZGCBhF1wC3jGWh9MSI=
+github.com/Guohuixixi/demo_hello_grpc/pb v0.0.0-20231206170349-4576e04d9eb4 h1:uCvi991KVlSppeuQeTUwcxYwMcTio+sKWiJ/PVVuNzA=
+github.com/Guohuixixi/demo_hello_grpc/pb v0.0.0-20231206170349-4576e04d9eb4/go.mod h1:U3s4tU6jgN5Rbbc6BQ7jy0Kj0KhFbXeH5LmSetiIpTs=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.3 h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg=
 github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=

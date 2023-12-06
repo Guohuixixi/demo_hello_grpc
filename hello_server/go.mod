@@ -3,7 +3,7 @@ module github.com/Guohuixixi/proto_hello_grpc/hello_server
 go 1.20
 
 require (
-	github.com/Guohuixixi/demo_hello_grpc/pb v0.0.0-20231206103747-986f3fc179d7
+	github.com/Guohuixixi/demo_hello_grpc/pb v0.0.0-20231206170349-4576e04d9eb4
 	google.golang.org/grpc v1.59.0
 )
 
