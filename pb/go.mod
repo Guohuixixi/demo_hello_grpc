@@ -1,4 +1,4 @@
-module github.com/Guohuixixi/proto_hello_grpc/pb
+module github.com/Guohuixixi/demo_hello_grpc/pb
 
 go 1.20
 
