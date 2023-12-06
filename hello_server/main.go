@@ -19,6 +19,27 @@ func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloRe
 	return &pb.HelloResponse{Reply: "Hello " + in.Name}, nil
 }
 
+// LotsOfReplies 返回使用多种语言打招呼
+func (s *server) LotsOfReplies(in *pb.HelloRequest, stream pb.Greeter_LotsOfRepliesServer) error {
+	words := []string{
+		"你好",
+		"hello",
+		"こんにちは",
+		"안녕하세요",
+	}
+
+	for _, word := range words {
+		data := &pb.HelloResponse{
+			Reply: word + in.GetName(),
+		}
+		// 使用Send方法返回多个数据
+		if err := stream.Send(data); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
 func main() {
 	// 监听本地的8972端口
 	lis, err := net.Listen("tcp", ":8972")
